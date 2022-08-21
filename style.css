@@ -1,0 +1,42 @@
+body{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+table{
+    width: 240px;
+   border:2px solid grey;
+    display: flex;
+
+}
+
+ 
+.lastcolumn{
+    background-color: brown;
+    color: white;
+}
+
+
+td{
+    text-align: center;
+    border: 1px solid grey;
+    height:60px;
+    width: 60px;
+}
+
+#en{
+    background-color: grey;
+   
+}
+
+#en td{
+    text-align:end;
+    
+    
+}
+
+.buton:hover{
+    background-color: rgb(240, 162, 16);
+}

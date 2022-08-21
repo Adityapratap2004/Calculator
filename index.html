@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Calculator</h1>
+    <table>
+      <tr id="en">
+        <td colspan="4" rowspan="2">
+          <p id="afterdisplay"> </p>
+          <p id="display"> </p>
+        </td>
+      </tr>
+
+      <tr></tr>
+      <tr>
+        <td class="buton" data-value="AC">AC</td>
+        <td class="buton" data-value="+-">+/-</td>
+        <td class="buton" data-value="%">%</td>
+        <td class="buton lastcolumn" data-value="/">/</td>
+      </tr>
+      <tr>
+        <td class="buton" data-value="7">7</td>
+        <td class="buton" data-value="8">8</td>
+        <td class="buton" data-value="9">9</td>
+        <td class="buton lastcolumn" data-value="*">*</td>
+      </tr>
+      <tr>
+        <td class="buton" data-value="4">4</td>
+        <td class="buton" data-value="5">5</td>
+        <td class="buton" data-value="6">6</td>
+        <td class="buton lastcolumn" data-value="-">-</td>
+      </tr>
+      <tr>
+        <td class="buton" data-value="1">1</td>
+        <td class="buton" data-value="2">2</td>
+        <td class="buton" data-value="3">3</td>
+        <td class="buton lastcolumn" data-value="+">+</td>
+      </tr>
+      <tr>
+        <td class="buton" data-value="0" colspan="2">0</td>
+        <td class="buton" data-value=".">.</td>
+        <td class="buton lastcolumn" data-value="=">=</td>
+      </tr>
+    </table>
+
+    <script src="script.js"></script>
+  </body>
+</html>
