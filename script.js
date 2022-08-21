@@ -1,4 +1,4 @@
-var button = document.getElementsByClassName("buton");
+var button = document.getElementsByClassName("button");
 var display = document.getElementById("display");
 var afterdisplay=document.getElementById("afterdisplay");
 
