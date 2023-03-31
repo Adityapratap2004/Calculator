@@ -21,6 +21,9 @@ for (var i = 0; i < button.length; i++) {
             afterdisplay.textContent=op1;
             display.textContent = "";
         } else if (value == "AC") {
+            op1=0;
+            op2=null;
+            operator=null;
             display.textContent = "";
             afterdisplay.textContent="";
         } else if (value == "+-") {
